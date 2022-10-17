@@ -25,4 +25,8 @@ class Producto {
         return this.id_producto + ")" + " " + this.descripcion + " - Precio: " + this.precio
     }
 
+    getSumaTotal(){
+        this.precio += this.precio;
+    }
+
 }
